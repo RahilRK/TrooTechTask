@@ -108,7 +108,7 @@ class MenuActivity : AppCompatActivity() {
                     model.menuList = viewModel.getListByCatId(model.categoryId, getApiValue)
 //                    globalClass.log(tag, "menuList: ${model.menuList.size}")
                 }
-//                globalClass.log(tag,"categoryList: ${list.size}")
+                globalClass.log(tag,"categoryList: ${list.size}")
                 arrayList = list as ArrayList<Category>
                 setAdapter()
             }
