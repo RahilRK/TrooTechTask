@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/margin4"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/itemName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="false"
+            android:singleLine="true"
+            android:padding="@dimen/margin12"
+            android:text="itemName"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp16"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/ivAdd"
+            android:layout_width="@dimen/margin32"
+            android:layout_height="@dimen/margin32"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/ic_add"
+            android:layout_centerVertical="true"
+            />
+
+    </RelativeLayout>
+
+    <com.google.android.material.divider.MaterialDivider
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin1"
+        />
+
+</LinearLayout>
